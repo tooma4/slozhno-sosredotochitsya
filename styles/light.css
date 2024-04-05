@@ -9,6 +9,7 @@
   --shadow-link-color: #ff8dcb;
   --accent-color: #353430;
   --hover-button-color-alpha: #32312d66;
+  --background-color: #fff1f7;
 }
 
 .page.theme_light {
@@ -18,13 +19,10 @@
   */
   --backgrond-title-decor: #ff8dcb;
   --text-title-color: #353430;
-
   --description-color: #353430;
   --heading-color: #353430;
-
   --main-color: #ffc2e6;
   --accent-color: #353430;
-
   --shadow-link-color: #ff8dcb;
   --hover-button-color-alpha: #32312d66;
 
@@ -48,6 +46,7 @@
     --shadow-link-color: #ff8dcb;
     --accent-color: #353430;
     --hover-button-color-alpha: #32312d66;
+    --background-color: #fff1f7;
     /* Дублируем переменные светлой темы */
   }
 }
