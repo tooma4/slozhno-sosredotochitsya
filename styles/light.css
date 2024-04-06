@@ -1,51 +1,54 @@
-:root .theme-light {
-  --main-font: "IBM Plex mono";
-  --backgrond-title-decor: #ff8dcb;
-  --text-title-color: #353430;
-  --description-color: #353430;
-  --heading-color: #353430;
-  --main-color: #ffc2e6;
-  --shadow-main-color: #ff0070;
-  --shadow-link-color: #ff8dcb;
-  --accent-color: #353430;
-  --hover-button-color-alpha: #32312d66;
-  --background-color: #fff1f7;
-}
+/* :root .theme-light {
+} */
 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --backgrond-title-decor: #ff8dcb;
+  --main-font: "IBM Plex mono";
+
+  --background-title-decor: #ff8dcb;
   --text-title-color: #353430;
+
   --description-color: #353430;
   --heading-color: #353430;
+
   --main-color: #ffc2e6;
   --accent-color: #353430;
+
+  --shadow-main-color: #ff8dcb;
   --shadow-link-color: #ff8dcb;
+
   --hover-button-color-alpha: #32312d66;
 
-  background-image: url(/images/cover-image-light.png);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+  --background-color: #fff1f7;
 
-  font-family: var(--main-font, "IBM Plex Mono", sans-serif);
+  background-image: url(../images/cover-image-light.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --main-font: "IBM Plex mono";
-    --backgrond-title-decor: #ff8dcb;
+
+    --background-title-decor: #ff8dcb;
     --text-title-color: #353430;
+
     --description-color: #353430;
     --heading-color: #353430;
+
     --main-color: #ffc2e6;
-    --shadow-main-color: #ff0070;
-    --shadow-link-color: #ff8dcb;
     --accent-color: #353430;
+
+    --shadow-main-color: #ff8dcb;
+    --shadow-link-color: #ff8dcb;
+
     --hover-button-color-alpha: #32312d66;
+
     --background-color: #fff1f7;
     /* Дублируем переменные светлой темы */
   }
