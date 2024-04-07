@@ -4,14 +4,11 @@
   переключая тему
 */
 
-/* :root .theme-dark {
-} */
-
+/* сохраните этот селектор в приведённом виде.
+  Так стили написанные ниже будут иметь больший вес,
+  чем стили в медиазапросе предпочтений пользователя
+*/
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
   --main-font: "IBM Plex mono";
 
   --background-title-decor: #ff0070;
@@ -31,6 +28,7 @@
   --background-color: #000028;
 
   background-image: url(../images/cover-image-dark.png);
+
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,8 +37,4 @@
   font-family: var(--main-font, "IBM Plex Mono", sans-serif);
 
   background-color: var(--background-color);
-}
-
-.page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
